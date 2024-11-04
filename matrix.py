@@ -6,7 +6,7 @@ a = np.random.rand(2, 3)
 b = np.random.rand(3, 4)
 
 # perkalian matrix
-c = np.dot(a, b)
+c = np.matmul(a, b)
 print("Matrix a:\n", a)
 print("Matrix b:\n", b)
 print("Matrix a * b:\n", c)
