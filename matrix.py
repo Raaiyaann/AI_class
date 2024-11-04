@@ -1,9 +1,11 @@
 import numpy as np
 
-#dimensi 2 kali 3
-a = np.random.rand(2, 3)
+#dimensi 2 kali 
+np.random.seed(4)
+a = np.random.randint(0,10 ,(2, 3))
 #dimensi 3 kali 4
-b = np.random.rand(3, 4)
+b = np.random.randint(0 ,10 , (3, 4))
+
 
 # perkalian matrix
 c = np.matmul(a, b)
